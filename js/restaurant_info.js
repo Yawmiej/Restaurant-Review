@@ -132,12 +132,14 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
   const container = document.getElementById('reviews-container');
   const title = document.createElement('h2');
   title.innerHTML = 'Reviews';
+  title.tabIndex = '3';
   container.appendChild(title);
 
   if (!reviews) {
     const noReviews = document.createElement('p');
     noReviews.innerHTML = 'No reviews yet!';
     container.appendChild(noReviews);
+    noReviews.tabIndex = '3';
     return;
   }
   const ul = document.getElementById('reviews-list');
@@ -167,6 +169,9 @@ createReviewHTML = (review) => {
   const comments = document.createElement('p');
   comments.innerHTML = review.comments;
   li.appendChild(comments);
+
+  li.tabIndex = '3';
+  li.setAttribute('aria-label', `review by ${review.name}`)
 
   return li;
 }
