@@ -171,7 +171,7 @@ createReviewHTML = (review) => {
   li.appendChild(comments);
 
   li.tabIndex = '3';
-  li.setAttribute('aria-label', `review by ${review.name}`)
+  li.setAttribute('aria-label', `review by ${review.name}`);
 
   return li;
 }
