@@ -294,7 +294,7 @@ nav h1 a {
 }
 
 
-
+/* Media query for large screens */
 @media screen and (min-width: 700px) {
   .inside header {
     position: fixed;
