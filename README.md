@@ -36,5 +36,5 @@ Application can be run using the following steps
 * HTML, CSS, JavaScript
 * [Project Restaurant Reviews (Stage 1) - Starter Code](https://github.com/udacity/mws-restaurant-stage-1)
 * [Normalize.css](https://necolas.github.io/normalize.css/)
-* [MapBox API](www.mapbox.com)
-* Big Credits to [Matthew Cranford](www.matthewcranford.com)
+* [MapBox API](https://www.mapbox.com)
+* Big Credits to [Matthew Cranford](https://www.matthewcranford.com)
